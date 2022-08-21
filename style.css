@@ -1,0 +1,151 @@
+body{
+    font-family: sans-serif;
+    background-color: #333940;
+}
+.body-light{
+    background-color: #EAEBED;
+}
+.title{
+    text-align: center;
+    font-size: 2em;
+    margin: 20px;
+    padding-bottom: 20px;
+}
+.container{
+    max-width: 400px;
+    height: 500px;
+    margin: auto;
+    margin-top:10vh;
+    border-radius: 20px;
+    padding: 20px;
+}
+.dark{
+    color: #EAEBED;
+    background-color: #171C22;
+}
+.light{
+    color: #2E3A48;
+    background-color: #C9BAFF;
+}
+.btn-dark{
+    color: #EAEBED;
+}
+.btn-light{
+    color: #2E3A48;
+}
+input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.type-dark{
+    color: #EAEBED;
+    border: 2px solid #5A6876;
+    background-color: #2E3A48;
+}
+.type-dark2{
+    color: #EAEBED;
+    border: 2px solid #5A6876;
+    background-color: #2E3A48;
+}
+.type-light{
+    color: #171C22;
+    border: 2px solid #937CE6;
+    background-color: #FFFFFF;
+}
+.submit-container{
+    display: flex;
+    gap:8px;
+    margin: 8px 0;
+}
+input[type=submit] {
+    width: 100%;
+    background-color: #6344D4;
+    padding: 20px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background: linear-gradient(90deg, #A430FF 0%, #F318AD 49.74%, #FF2171 100%);
+}
+#hasil{
+    background-color: #2E3A48;
+    color: #D9D9D9;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+.toggle-container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 20px;
+    gap: 8px;
+}
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+}
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+} 
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+input:checked + .slider {
+    background-color: #2196F3;
+}
+input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+.slider.round {
+    border-radius: 34px;
+}
+.slider.round:before {
+    border-radius: 50%;
+}
+/* Aldilla Ulinnaja */
